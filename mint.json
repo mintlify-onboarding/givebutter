@@ -73,7 +73,9 @@
     }
   ],
   "footerSocials": {
-    "twitter": "",
-    "linkedin": ""
+    "twitter": "https://twitter.com/givebutter",
+    "linkedin": "https://www.linkedin.com/company/givebutter/",
+    "facebook": "https://www.facebook.com/givebutter",
+    "instagram": "https://www.instagram.com/givebutter/"
   }
 }
