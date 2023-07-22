@@ -1,0 +1,79 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Givebutter",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#FDBE10",
+    "light": "#FBC83D",
+    "dark": "#FDBE10"
+  },
+  "topbarCtaButton": {
+    "name": "Sign Up",
+    "url": "https://givebutter.com/signup"
+  },
+  "topbarLinks": [
+    {
+      "name": "Log In",
+      "url": "https://givebutter.com/login"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    },
+    {
+      "name": "Dashboard",
+      "url": "https://dashboard.givebutter.com/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Widgets",
+      "pages": [
+        "widgets/getting-started",
+        {
+          "group": "Available Widgets",
+          "pages": [
+            "widgets/available-widgets/donate-button",
+            "widgets/available-widgets/donation-form",
+            "widgets/available-widgets/request-a-widget"
+          ]
+        },
+        "widgets/analytics"
+      ]
+    },
+    {
+      "group": "Givebutter Elements",
+      "pages": [
+        "givebutter-elements/elements-install",
+        "givebutter-elements/elements-dynamic-elements",
+        {
+          "group": "Coded Elements",
+          "pages": [
+            "givebutter-elements/coded-elements/overview",
+            "givebutter-elements/coded-elements/elements-bubble",
+            "givebutter-elements/coded-elements/elements-button",
+            "givebutter-elements/coded-elements/elements-type-form"
+          ]
+        },
+        "givebutter-elements/elements-analytics",
+        {
+          "group": "Events",
+          "pages": [
+            "givebutter-elements/events/overview",
+            "givebutter-elements/events/elements-donation-events"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "",
+    "linkedin": ""
+  }
+}
